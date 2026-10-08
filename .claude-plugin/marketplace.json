@@ -1,0 +1,13 @@
+{
+    "name":  "claude-mod-handoff-nudge",
+    "owner":  {
+                  "name":  "Hasan"
+              },
+    "plugins":  [
+                    {
+                        "description":  "Offers /handoff-journal or /handoff-local above the prompt when the context passes 60% and 85%, or the session runs past 3 hours. Reads only the engine\u0027s own usage figures: no tokens until you click.",
+                        "name":  "handoff-nudge",
+                        "source":  "./"
+                    }
+                ]
+}
